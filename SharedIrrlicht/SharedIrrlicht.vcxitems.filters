@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IrrNet">
+      <UniqueIdentifier>{93d27ad0-4f8d-40e9-b61a-6f5a3fb039f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrNet\Examples">
+      <UniqueIdentifier>{0f84b8b8-8550-4410-bdca-9f8b43465d2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\irrNet.h">
+      <Filter>IrrNet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\NetAnim.h">
+      <Filter>IrrNet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\NetManager.h">
+      <Filter>IrrNet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\Packets.h">
+      <Filter>IrrNet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\Examples\Animators.h">
+      <Filter>IrrNet\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\Examples\chatQue.h">
+      <Filter>IrrNet\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CGUIDebugBoard.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CGUIPanel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Converter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CoordinateSystemCursor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CSceneNodeAnimatorCameraTPS.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DeviceCreator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GUIAnimationCenter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GUIAnimationContainer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Head.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IGUIAnimator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ISceneNodeAnimatorEnd.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MainEventReceiver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\NetAnim.cpp">
+      <Filter>IrrNet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\NetManager.cpp">
+      <Filter>IrrNet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Packets.cpp">
+      <Filter>IrrNet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\Animators.cpp">
+      <Filter>IrrNet\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\chatQue.cpp">
+      <Filter>IrrNet\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example1.cpp">
+      <Filter>IrrNet\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example2.cpp">
+      <Filter>IrrNet\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example3.cpp">
+      <Filter>IrrNet\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example4.cpp">
+      <Filter>IrrNet\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CGUIDebugBoard.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CGUIPanel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CoordinateSystemCursor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CSceneNodeAnimatorCameraTPS.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GUIAnimationCenter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GUIAnimationContainer.cpp" />
+  </ItemGroup>
+</Project>
