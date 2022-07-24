@@ -1,79 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="IrrNet">
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Animator">
+      <UniqueIdentifier>{fffcdc69-aa3c-4e32-ab88-712dc2609a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Animator">
+      <UniqueIdentifier>{abb45809-b796-41ae-9f7c-a78c6d0ee060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GUI">
+      <UniqueIdentifier>{9d0b7140-2d1c-4115-b67d-cd3bc67a43e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GUI">
+      <UniqueIdentifier>{6b67d6a6-4995-4d5e-a6b5-08449a1a8598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\IrrNet">
       <UniqueIdentifier>{93d27ad0-4f8d-40e9-b61a-6f5a3fb039f1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="IrrNet\Examples">
+    <Filter Include="ソース ファイル\IrrNet\Examples">
       <UniqueIdentifier>{0f84b8b8-8550-4410-bdca-9f8b43465d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\IrrNet">
+      <UniqueIdentifier>{48fa9877-68a4-4093-9482-718f6617eff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\IrrNet\Examples">
+      <UniqueIdentifier>{c31407e4-4c31-4e69-81a7-c72b75ae5943}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Converter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CoordinateSystemCursor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DeviceCreator.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Head.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IGUIAnimator.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MainEventReceiver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CGUIDebugBoard.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CSceneNodeAnimatorCameraTPS.h">
+      <Filter>ヘッダー ファイル\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ISceneNodeAnimatorEnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CGUIPanel.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GUIAnimationCenter.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GUIAnimationContainer.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\irrNet.h">
-      <Filter>IrrNet</Filter>
+      <Filter>ヘッダー ファイル\IrrNet</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\NetAnim.h">
-      <Filter>IrrNet</Filter>
+      <Filter>ヘッダー ファイル\IrrNet</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\NetManager.h">
-      <Filter>IrrNet</Filter>
+      <Filter>ヘッダー ファイル\IrrNet</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\Packets.h">
-      <Filter>IrrNet</Filter>
+      <Filter>ヘッダー ファイル\IrrNet</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\Examples\Animators.h">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ヘッダー ファイル\IrrNet\Examples</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)IrrNet\Examples\chatQue.h">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ヘッダー ファイル\IrrNet\Examples</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)CGUIDebugBoard.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)CGUIPanel.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)Converter.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)CoordinateSystemCursor.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)CSceneNodeAnimatorCameraTPS.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)DeviceCreator.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)GUIAnimationCenter.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)GUIAnimationContainer.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)Head.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)IGUIAnimator.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)IScene.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)ISceneNodeAnimatorEnd.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)MainEventReceiver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\NetAnim.cpp">
-      <Filter>IrrNet</Filter>
+      <Filter>ソース ファイル\IrrNet</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\NetManager.cpp">
-      <Filter>IrrNet</Filter>
+      <Filter>ソース ファイル\IrrNet</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Packets.cpp">
-      <Filter>IrrNet</Filter>
+      <Filter>ソース ファイル\IrrNet</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\Animators.cpp">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ソース ファイル\IrrNet\Examples</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\chatQue.cpp">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ソース ファイル\IrrNet\Examples</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example1.cpp">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ソース ファイル\IrrNet\Examples</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example2.cpp">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ソース ファイル\IrrNet\Examples</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example3.cpp">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ソース ファイル\IrrNet\Examples</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)IrrNet\Examples\example4.cpp">
-      <Filter>IrrNet\Examples</Filter>
+      <Filter>ソース ファイル\IrrNet\Examples</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)CGUIDebugBoard.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)CGUIPanel.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)CoordinateSystemCursor.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)CSceneNodeAnimatorCameraTPS.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)GUIAnimationCenter.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)GUIAnimationContainer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CoordinateSystemCursor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CGUIDebugBoard.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CSceneNodeAnimatorCameraTPS.cpp">
+      <Filter>ソース ファイル\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CGUIPanel.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GUIAnimationCenter.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GUIAnimationContainer.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
